@@ -1,0 +1,2 @@
+label	runs	mean_tolerance	std_tolerance	ci95_tolerance	accepted_total	total_length_aa	mean_blosum	mean_acceptance_probability	mean_grantham	mean_hydrophobicity_delta
+principal	5	0.119474	0.000000	0.000000	500	837.00	-0.290	0.632	50.848	-0.264

@@ -1,0 +1,2 @@
+protein	runs	mean_tolerance	std_tolerance	ci95_tolerance	protein_length_aa	total_accepted	mean_blosum	mean_hydrophobicity_delta	mean_acceptance_probability
+région non annotée	5	0.119474	0.000000	0.000000	837.00	500	-0.290	-0.264	0.632

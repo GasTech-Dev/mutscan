@@ -1,0 +1,89 @@
+Séquence chargée: Start/seq.fasta (477 nt traduisibles)
+Nom de la protéine de référence: NG_017013.2:5001-24149_predicted_CDS|strand=+|frame=1|nt=477|aa=159|coords=18641..19117
+Longueur: 159 aa
+Aucune annotation spécifique: les mutations seront indiquées sans nom connu.
+Aperçu: MMIWIHQDLFYAQGQFLFSFFFFFFFFFETGSRFVAQAGVEWRDLGLLQPLPPRLEQSCL...
+-
+Simulation 1: mutation non-silencieuse
+  - [acceptée] nt 11: G->T | codon 3: TGG->TGT | aa W->C | score 1 (drastique) | BLOSUM -2.0 | Grantham 215 | Δhydro +3.40 | p_accept 0.27 | codon_pref 1.00 | flags aucun | protéine: région non annotée
+  - [acceptée] nt 131: T->A | codon 43: GAT->GAA | aa D->E | score 0 (conservateur) | BLOSUM 2.0 | Grantham 45 | Δhydro +0.00 | p_accept 0.75 | codon_pref 0.05 | flags aucun | protéine: région non annotée
+  - [acceptée] nt 305: C=T | codon 101: TCC=TCT | aa S=S | score -1 (synonyme) | BLOSUM 0.0 | Grantham 0 | Δhydro +0.00 | p_accept 1.00 | codon_pref 1.00 | flags aucun | protéine: région non annotée
+  - [rejetée] nt 11: G->A | codon 3: TGG->TGA | aa W->* | score 2 (critique) | BLOSUM -4.0 | Grantham 0 | Δhydro +0.90 | p_accept 0.00 | codon_pref 0.05 | flags stop_gagné | protéine: région non annotée
+  - [rejetée] nt 11: G->T | codon 3: TGG->TGT | aa W->C | score 1 (drastique) | BLOSUM -2.0 | Grantham 215 | Δhydro +3.40 | p_accept 0.27 | codon_pref 1.00 | flags aucun | protéine: région non annotée
+  - [rejetée] nt 11: G->A | codon 3: TGG->TGA | aa W->* | score 2 (critique) | BLOSUM -4.0 | Grantham 0 | Δhydro +0.90 | p_accept 0.00 | codon_pref 0.05 | flags stop_gagné | protéine: région non annotée
+  - [rejetée] nt 11: G->A | codon 3: TGG->TGA | aa W->* | score 2 (critique) | BLOSUM -4.0 | Grantham 0 | Δhydro +0.90 | p_accept 0.00 | codon_pref 0.05 | flags stop_gagné | protéine: région non annotée
+  Protéine(s) ciblée(s): non annotée
+  Aperçu protéique: MMICIHQDLFYAQGQFLFSFFFFFFFFFETGSRFVAQAGVEWRELGLLQPLPPRLEQSCL...
+  Protéine identique: non
+  Ratio dN/dS: 2.00
+-
+Simulation 2: mutation non-silencieuse
+  - [acceptée] nt 3: A->C | codon 1: ATG->CTG | aa M->L | score 0 (conservateur) | BLOSUM 2.0 | Grantham 15 | Δhydro +1.90 | p_accept 0.85 | codon_pref 0.38 | flags aucun | protéine: région non annotée
+  - [acceptée] nt 281: T=G | codon 93: TCT=TCG | aa S=S | score -1 (synonyme) | BLOSUM 0.0 | Grantham 0 | Δhydro +0.00 | p_accept 1.00 | codon_pref 0.05 | flags aucun | protéine: région non annotée
+  - [acceptée] nt 386: T=C | codon 128: ATT=ATC | aa I=I | score -1 (synonyme) | BLOSUM 0.0 | Grantham 0 | Δhydro +0.00 | p_accept 1.00 | codon_pref 1.00 | flags aucun | protéine: région non annotée
+  Protéine(s) ciblée(s): non annotée
+  Aperçu protéique: MLIWIHQDLFYAQGQFLFSFFFFFFFFFETGSRFVAQAGVEWRDLGLLQPLPPRLEQSCL...
+  Protéine identique: non
+  Ratio dN/dS: 0.50
+-
+Simulation 3: mutation silencieuse
+  - [acceptée] nt 44: A=G | codon 14: CAA=CAG | aa Q=Q | score -1 (synonyme) | BLOSUM 0.0 | Grantham 0 | Δhydro +0.00 | p_accept 1.00 | codon_pref 1.00 | flags aucun | protéine: région non annotée
+  - [acceptée] nt 47: T=C | codon 15: TTT=TTC | aa F=F | score -1 (synonyme) | BLOSUM 0.0 | Grantham 0 | Δhydro +0.00 | p_accept 1.00 | codon_pref 0.18 | flags aucun | protéine: région non annotée
+  - [acceptée] nt 404: T=C | codon 134: CAT=CAC | aa H=H | score -1 (synonyme) | BLOSUM 0.0 | Grantham 0 | Δhydro +0.00 | p_accept 1.00 | codon_pref 1.00 | flags aucun | protéine: région non annotée
+  Protéine(s) ciblée(s): non annotée
+  Aperçu protéique: MMIWIHQDLFYAQGQFLFSFFFFFFFFFETGSRFVAQAGVEWRDLGLLQPLPPRLEQSCL...
+  Protéine identique: oui
+  Ratio dN/dS: 0.00
+-
+Simulation 4: mutation non-silencieuse
+  - [acceptée] nt 263: G->C | codon 87: CAG->CAC | aa Q->H | score 1 (drastique) | BLOSUM 0.0 | Grantham 24 | Δhydro +0.30 | p_accept 0.73 | codon_pref 1.00 | flags aucun | protéine: région non annotée
+  - [acceptée] nt 294: C->T | codon 98: CTC->TTC | aa L->F | score 1 (drastique) | BLOSUM 0.0 | Grantham 22 | Δhydro -1.00 | p_accept 0.34 | codon_pref 0.18 | flags aucun | protéine: région non annotée
+  - [acceptée] nt 395: A=T | codon 131: GCA=GCT | aa A=A | score -1 (synonyme) | BLOSUM 0.0 | Grantham 0 | Δhydro +0.00 | p_accept 1.00 | codon_pref 1.00 | flags aucun | protéine: région non annotée
+  Protéine(s) ciblée(s): non annotée
+  Aperçu protéique: MMIWIHQDLFYAQGQFLFSFFFFFFFFFETGSRFVAQAGVEWRDLGLLQPLPPRLEQSCL...
+  Protéine identique: non
+  Ratio dN/dS: 2.00
+-
+Simulation 5: mutation non-silencieuse
+  - [acceptée] nt 38: G=A | codon 12: CAG=CAA | aa Q=Q | score -1 (synonyme) | BLOSUM 0.0 | Grantham 0 | Δhydro +0.00 | p_accept 1.00 | codon_pref 1.00 | flags aucun | protéine: région non annotée
+  - [acceptée] nt 48: C->T | codon 16: CTT->TTT | aa L->F | score 1 (drastique) | BLOSUM 0.0 | Grantham 22 | Δhydro -1.00 | p_accept 0.73 | codon_pref 1.00 | flags aucun | protéine: région non annotée
+  - [acceptée] nt 111: G->A | codon 37: GCT->ACT | aa A->T | score 1 (drastique) | BLOSUM 0.0 | Grantham 58 | Δhydro -2.50 | p_accept 0.73 | codon_pref 1.00 | flags aucun | protéine: région non annotée
+  Protéine(s) ciblée(s): non annotée
+  Aperçu protéique: MMIWIHQDLFYAQGQFFFSFFFFFFFFFETGSRFVAQTGVEWRDLGLLQPLPPRLEQSCL...
+  Protéine identique: non
+  Ratio dN/dS: 2.00
+-
+========================================
+Résumé global
+  dN/dS global: 0.88
+  BLOSUM accepté: moyenne 0.13, min -2.0, max 2.0
+  BLOSUM rejeté: moyenne -3.50, min -4.0, max -2.0
+  p_accept accepté: moyenne 0.83, min 0.27, max 1.00
+  p_accept rejeté: moyenne 0.07, min 0.00, max 0.27
+  Mutations rejetées: 4
+  Grantham: moyenne 26.7, min 0, max 215
+  Δhydrophobicité moyenne: +0.07 (min -2.50, max +3.40)
+  Mutations acceptées (mutation | type | sévérité | protéine):
+    [acceptée] | nt 11: G->T | aa W->C | score 1 (drastique) | BLOSUM -2.0 | Grantham 215 | Δhydro +3.40 | p_accept 0.27 | codon_pref 1.00 | flags aucun | protéine région non annotée
+    [acceptée] | nt 131: T->A | aa D->E | score 0 (conservateur) | BLOSUM 2.0 | Grantham 45 | Δhydro +0.00 | p_accept 0.75 | codon_pref 0.05 | flags aucun | protéine région non annotée
+    [acceptée] | nt 305: C->T | aa S->S | score -1 (synonyme) | BLOSUM 0.0 | Grantham 0 | Δhydro +0.00 | p_accept 1.00 | codon_pref 1.00 | flags aucun | protéine région non annotée
+    [acceptée] | nt 3: A->C | aa M->L | score 0 (conservateur) | BLOSUM 2.0 | Grantham 15 | Δhydro +1.90 | p_accept 0.85 | codon_pref 0.38 | flags aucun | protéine région non annotée
+    [acceptée] | nt 281: T->G | aa S->S | score -1 (synonyme) | BLOSUM 0.0 | Grantham 0 | Δhydro +0.00 | p_accept 1.00 | codon_pref 0.05 | flags aucun | protéine région non annotée
+    [acceptée] | nt 386: T->C | aa I->I | score -1 (synonyme) | BLOSUM 0.0 | Grantham 0 | Δhydro +0.00 | p_accept 1.00 | codon_pref 1.00 | flags aucun | protéine région non annotée
+    [acceptée] | nt 44: A->G | aa Q->Q | score -1 (synonyme) | BLOSUM 0.0 | Grantham 0 | Δhydro +0.00 | p_accept 1.00 | codon_pref 1.00 | flags aucun | protéine région non annotée
+    [acceptée] | nt 47: T->C | aa F->F | score -1 (synonyme) | BLOSUM 0.0 | Grantham 0 | Δhydro +0.00 | p_accept 1.00 | codon_pref 0.18 | flags aucun | protéine région non annotée
+    [acceptée] | nt 404: T->C | aa H->H | score -1 (synonyme) | BLOSUM 0.0 | Grantham 0 | Δhydro +0.00 | p_accept 1.00 | codon_pref 1.00 | flags aucun | protéine région non annotée
+    [acceptée] | nt 263: G->C | aa Q->H | score 1 (drastique) | BLOSUM 0.0 | Grantham 24 | Δhydro +0.30 | p_accept 0.73 | codon_pref 1.00 | flags aucun | protéine région non annotée
+    [acceptée] | nt 294: C->T | aa L->F | score 1 (drastique) | BLOSUM 0.0 | Grantham 22 | Δhydro -1.00 | p_accept 0.34 | codon_pref 0.18 | flags aucun | protéine région non annotée
+    [acceptée] | nt 395: A->T | aa A->A | score -1 (synonyme) | BLOSUM 0.0 | Grantham 0 | Δhydro +0.00 | p_accept 1.00 | codon_pref 1.00 | flags aucun | protéine région non annotée
+    [acceptée] | nt 38: G->A | aa Q->Q | score -1 (synonyme) | BLOSUM 0.0 | Grantham 0 | Δhydro +0.00 | p_accept 1.00 | codon_pref 1.00 | flags aucun | protéine région non annotée
+    [acceptée] | nt 48: C->T | aa L->F | score 1 (drastique) | BLOSUM 0.0 | Grantham 22 | Δhydro -1.00 | p_accept 0.73 | codon_pref 1.00 | flags aucun | protéine région non annotée
+    [acceptée] | nt 111: G->A | aa A->T | score 1 (drastique) | BLOSUM 0.0 | Grantham 58 | Δhydro -2.50 | p_accept 0.73 | codon_pref 1.00 | flags aucun | protéine région non annotée
+  Mutations rejetées (propositions filtrées):
+    [rejetée] | nt 11: G->A | aa W->* | score 2 (critique) | BLOSUM -4.0 | Grantham 0 | Δhydro +0.90 | p_accept 0.00 | codon_pref 0.05 | flags stop_gagné | protéine région non annotée
+    [rejetée] | nt 11: G->T | aa W->C | score 1 (drastique) | BLOSUM -2.0 | Grantham 215 | Δhydro +3.40 | p_accept 0.27 | codon_pref 1.00 | flags aucun | protéine région non annotée
+    [rejetée] | nt 11: G->A | aa W->* | score 2 (critique) | BLOSUM -4.0 | Grantham 0 | Δhydro +0.90 | p_accept 0.00 | codon_pref 0.05 | flags stop_gagné | protéine région non annotée
+    [rejetée] | nt 11: G->A | aa W->* | score 2 (critique) | BLOSUM -4.0 | Grantham 0 | Δhydro +0.90 | p_accept 0.00 | codon_pref 0.05 | flags stop_gagné | protéine région non annotée
+  Mutations par protéine:
+    - région non annotée: 15 mutations acceptées (7 non synonymes, 8 synonymes), 4 rejetées, tolérance 0.094 mut./aa (longueur 159 aa), sévérité moyenne -0.20, p_accept moyenne 0.83, BLOSUM moyen 0.13, Grantham moyen 26.7, Δhydro moyen +0.07, flags critiques 0, indels acceptés 0
+Mutations acceptées enregistrées dans results/seq_mutations_summary.csv
